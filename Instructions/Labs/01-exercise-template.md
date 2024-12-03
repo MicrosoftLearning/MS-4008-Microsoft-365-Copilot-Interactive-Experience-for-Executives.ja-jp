@@ -13,7 +13,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
 この演習では、次のことを行います。 <!-- provide a description of what they'll do and why it;s important -->
 
-この演習の所要時間は約 **XX** 分の見込みです。 <!-- update with estimated duration -->
+この演習の所要時間は約 **XX** 分です。 <!-- update with estimated duration -->
 
 ## 開始する前に
 
@@ -27,61 +27,61 @@ If self-paced /ILT-specific setup steps are required, include them in the Learn 
 この演習を開始する前に、以下を行う必要があります。
 
 1. 手順 1
-1. ステップ 2
+1. 手順 2
 1. その他。
 
 ## タスク <!-- Change to an appropriate task title with an imperative verb phrase (e.g. "Do something") -->
 
-まず、次を行う必要があります。
+まず、...
 
 1. 手順 1
-1. この手順には例に `inline code formatting` が含まれています。これは、ホストされた Skillable 環境に [T] リンクが作成されるため、学習者が何か (コードだけでなく何でも) 入力する必要がある場合に使用されます。
-1. 学習者に Web サイトを開いてもらう必要がある場合は、リンク (HTML GitHub ページをクリックして開くことができるようにするため) と、コードとして書式設定された URL (ホストされた VM ブラウザーで入力できるようにするため) の両方を含めます。 たとえば、"[Bing](https://www.bing.com) Web サイト (`https://www.bing.com`) を開きます" などです。
-1. 学習者にファイル (またはファイルの集まりの zip 形式) をダウンロードしてもらう必要がある場合は、このリポジトリの Allfiles フォルダーにファイルを格納し、URL を**そのまま** ("`https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json` から[ファイル名](https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json)をダウンロードします" のように) 使用します。
-1. または、対象者が開発者で、その方が適切だと思われる場合は、このリポジトリをクローンさせることができます。
-1. 複数行のコード ブロックを入れる必要がある場合は、箇条書きのインデントに合わせてインデントします。
+1. この手順には `inline code formatting` の例が含まれています。これは、ホストされた Skillable 環境に [T] リンクが作成されるため、学習者が何か (コードだけでなく何でも) 入力する必要がある場合に使用されます。
+1. 学習者に Web サイトを開いてもらう必要がある場合は、(HTML GitHub ページでクリックして開くことができるように) リンクと、(ホストされた VM ブラウザーで入力できるように) コードとして書式設定された URL の両方を含めます。 たとえば、"`https://www.bing.com` で [Bing](https://www.bing.com) Web サイトを開きます" などです。
+1. 学習者にファイルを (または一連のファイルを zip 形式で) ダウンロードしてもらう必要がある場合は、そのファイルをこのリポジトリの Allfiles フォルダーに格納し、**未加工の** URL を使用します。たとえば、"`https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json` から [ファイル名](https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json) をダウンロードします" などです。
+1. または、対象者が開発者で、その方が適切だと思われる場合は、このリポジトリをクローンしてもらうこともできます。
+1. 複数行のコード ブロックを含める必要がある場合は、箇条書きのインデントに合わせてインデントします。
 
     ```python
     # This is an example of an
     # indented code block.
     ```
 
-1. スクリーンショットを入れる必要がある場合は、適切なサイズに変更します (そのため、部分的なスクリーンショットでの "標準" で書式設定されたテキストは、このテキストとほぼ同じサイズです。ほとんどの場合は、アプリケーション ウィンドウ全体のスクリーンショットを 800 x 600 ピクセル (およそ) にするようにしてください)。 画像は **Media** サブフォルダーに格納し、Markdown を使用してページに追加します (ファイル名とフォルダー名では大文字と小文字が区別されることを覚えておいてください)。 画像がリスト内にある場合は、次のようにインデントします。
+1. スクリーンショットを含める必要がある場合は、適切なサイズに変更します (そのため、部分的なスクリーンショットの "通常の" 書式設定されたテキストは、このテキストとほぼ同じサイズです。通常は、アプリケーション ウィンドウ全体のスクリーンショットを (およそ) 800 x 600 ピクセルにしてみてください)。 画像は **Media** サブフォルダーに格納し、Markdown を使用してページに追加します (ファイル名とフォルダー名は大文字と小文字が区別されることを覚えておいてください)。 画像がリスト内にある場合は、次のようにインデントします。
 
     ![アプリケーションのスクリーンショット。](./Media/edge-copilot.png) 
 
-1. そのように行う理由を説明する必要がある場合、または情報への追加のコンテキストやリンクを提供する必要がある場合は、次のように注記を使用します。
+1. 何かを行う理由や方法を説明する必要がある場合、または情報への追加のコンテキストやリンクを提供する必要がある場合は、次のようなメモを使用します。
 
-    > **注**: これは注記です。
+    > **注**: これは注です。
 
 1. マイペースで進められるラボ環境とホストされたラボ環境で異なる可能性のある手順を示す場合は、柔軟に対応してください。 次に例を示します。
     - "Azure 資格情報を使用してサインインします" (Learn 演習ページで個人用サブスクリプションを使用するか試用版を作成するための Learn 固有の手順があり、Skillable ラボ プロファイルで指定された Cloudslice 資格情報を使用するための ILT 固有の手順があると仮定)
-    - "既存のリソース グループを選択するか、新しいリソース グループを作成します" (Skillable CS-R Cloudslice が使用されている場合に、使用するリソース グループを学習者に伝える注記をラボ プロファイルに入れたと仮定)
+    - "既存のリソース グループを選択するか、新しいリソース グループを作成します" (Skillable CS-R Cloudslice が使用されている場合、使用するリソース グループを学習者に伝える注をラボ プロファイルに含めたと仮定)
     <!-- The key point is that this markdown file should be environment-agnostic - you need to provide explicit details of things that can vary OUTSIDE of this file (in the Learn exercise page or the Skillable lab profile instructions) -->
 1. その他。
 
 ## 次の作業
 
-これから行うのは以下です。
+それでは、...
 
 1. 手順 1
-1. ステップ 2
+1. 手順 2
 1. その他。
 
 ## サブタスクを含むタスク
 
-時には、タスクをより小さなチャンクに分割したい場合があります。
+場合によっては、タスクをより小さなチャンクに分割する必要があります。
 
 ### サブタスク 1
 
 1. 手順 1
-1. ステップ 2
+1. 手順 2
 1. など
 
 ### サブタスク 2
 
 1. 手順 1
-1. ステップ 2
+1. 手順 2
 1. その他。
 
 ## クリーンアップ
@@ -89,7 +89,7 @@ If self-paced /ILT-specific setup steps are required, include them in the Learn 
 <!-- Good practice - especially as self-paced learners will be using their own subscriptions -->
 <!-- Delete this section if it is not needed -->
 
-演習が完了したので、不要なリソースの使用を避けるために、作成したクラウド リソースを削除する必要があります。
+これで演習が完了したので、不要なリソース使用を避けるために、作成したクラウド リソースを削除してください。
 
 1. 手順 1
 2. その他。
